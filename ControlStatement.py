@@ -669,7 +669,7 @@ print("Performance =",performance)
 print("Bonus =",bonus)
 print("After bonus =",total_salary)'''
 
-# scholarship elligibility
+'''# scholarship elligibility
 name = input("Enter your name :")
 marks = int(input("Enter your marks :"))
 attendance = int(input("Enter attendance :"))
@@ -699,7 +699,7 @@ print("Marks =",marks)
 print("Attendance =",attendance)
 print("Income =",income)
 print("Scholarship =",scholarship,"%")
-print("Status =",status)
+print("Status =",status)'''
 
 
 

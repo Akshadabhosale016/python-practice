@@ -74,18 +74,18 @@
 # print("Reverse =",reverse)
 
 # print even and odd digit in number
-'''num = int(input("Enter number ="))
-even_count = 0
-odd_count = 0
-while num > 0 :
-    digit = num % 10
-    if digit % 2 == 0:
-       even_count += 1
-    else:
-       odd_count += 1
-    num = num // 10
-print("Even =",even_count)
-print("Odd =",odd_count)'''
+# num = int(input("Enter number ="))
+# even_count = 0
+# odd_count = 0
+# while num > 0 :
+#     digit = num % 10
+#     if digit % 2 == 0:
+#        even_count += 1
+#     else:
+#        odd_count += 1
+#     num = num // 10
+# print("Even =",even_count)
+# print("Odd =",odd_count)
 
 # # print sum of digits
 # num = int(input("Enter a number ="))
@@ -188,18 +188,6 @@ print("Odd =",odd_count)'''
 #         total = total + int(i)
 # print("Sum of odd number =",total)
 
-# count even and odd digit in number
-num = input("Enter number =")
-even_count = 0
-odd_count = 0
-for i in num:
-    if int(i) % 2 == 0:
-        even_count += 1
-    if int(i) % 2 != 0:
-        odd_count += 1
-    
-print("Even digit =",even_count)
-print("Odd digit =",odd_count)
     
     
     

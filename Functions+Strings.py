@@ -878,46 +878,46 @@
 # print(text.isdigit())
 
 # Problem 1  indexing
-text = "python"
-print(text[0])
-print(text[2])
-print(text[5])
+# text = "python"
+# print(text[0])
+# print(text[2])
+# print(text[5])
 
-# Problem 2  slicing
-text = "programming"
-print(text[0:3])
+# # Problem 2  slicing
+# text = "programming"
+# print(text[0:3])
 
-# Problem 3  
-text = "programming"
-print(text[7:])
+# # Problem 3  
+# text = "programming"
+# print(text[7:])
 
-# Problem 4
-text = "python"
-print(text[: :-1])
+# # Problem 4
+# text = "python"
+# print(text[: :-1])
 
-# Problem 5
-text = "python programming"
-print(text.upper())
+# # Problem 5
+# text = "python programming"
+# print(text.upper())
 
-# Program 6
-text = "I like java"
-print(text.replace("java","python"))
+# # Program 6
+# text = "I like java"
+# print(text.replace("java","python"))
 
-# Problem 7
-text = "banana"
-print(text.count("a"))
+# # Problem 7
+# text = "banana"
+# print(text.count("a"))
 
-# Problem 8
-text = "i love python"
-print(text.find("python"))
+# # Problem 8
+# text = "i love python"
+# print(text.find("python"))
 
-# Problem 9
-text = "python123"
-print(text.isalnum())
+# # Problem 9
+# text = "python123"
+# print(text.isalnum())
 
-# Problem 10
-text = "  python programming  "
-print(text.strip().title())
+# # Problem 10
+# text = "  python programming  "
+# print(text.strip().title())
 
 
 
