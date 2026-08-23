@@ -919,6 +919,70 @@
 # text = "  python programming  "
 # print(text.strip().title())
 
+# 23/8/2026
+# username formatter
+# username = input("Enter username =")
+# print("username =",username.strip())
+
+# # Name formatter
+# name = "aKSHADA bHOSALE"
+# print(name.title())
+
+# # Email checker
+# email = input("Enter email :")
+# if "@" in email:
+#     print("valid email format")
+# else:
+#     print("Invalid email format")
+
+# # word counter
+# text =  "I am learning Python programming"
+# print(len(text.split()))
+
+# character counter
+# text = input("Enter text =")
+# text = text.lower()
+# print(text.count("a"))
+
+# password rule checker
+# password = input("Enter password = ")
+# if len(password) >= 8 and "@" in password:
+#     print("Valid password")
+# else:
+#     print("Invalid password")
+
+# Phone number cleaning
+# phone = input("Enter phone number :")
+# phone = phone.replace(" ","")
+# print("Phone =",phone)
+
+# Sentence reverse
+# text = input("Enter sentence :")
+# print(text[::-1])
+
+# Username generator
+# username = input("Enter your name :")
+# username = username.lower()
+# print(username.replace(" ",""))
+
+# Mini text analyzer
+# text = input("Enter text :")
+# print(len(text))
+# print(len(text.split()))
+# print(text.upper())
+# print(text.lower())
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
