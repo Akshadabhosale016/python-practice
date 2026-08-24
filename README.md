@@ -2,32 +2,41 @@
 
 This repository contains my daily Python practice and learning progress.
 
-## Topics Covered
+## Topics Covered   (August)
 
-- Variables
-- Data Types
-- Input and Output
+- Variables                / Day 2
+- Data Types               
+- Input and Output         / Day 3
 - Type Casting
-- Operators
-- If-Else
-- Loops
-- Functions
-- Strings
-- String Indexing
-- String Slicing
-- String Methods
-- String Formatting
-
-## String Practice
-
-- Indexing
-- Slicing
-- Reverse String
-- String Methods
-- f-strings
-- Decimal Formatting
-- `.format()`
-- Real-world String Problems
+- Operators                / Day 4
+- Comments, keyword, Identifier     / Day 5
+- Practice 40 programs on above topics     / Day 6
+- mini calculator project                  / Day 7
+  * Week 2 - Control statement
+- if                                       / Day 8                                  
+- If-Else                                  / Day 9
+- elif                                     / Day 10
+- nested if                               / Day 11
+- Loops                                   / Day 12,13
+- practice 20 programs on control statement    / Day 14
+* Week 3
+- Functions                             / Day 15
+- Arguments (*arg and **kwargs)         / Day 16
+- Return statement                      / Day 17
+- Lambda() method                       / Day 18
+- Recursion                             / Day 19
+- Strings                               / Day 20
+    - Indexing
+    - Slicing
+    - Reverse String
+    - String Methods
+    - f-strings
+    - Decimal Formatting
+    - `.format()`
+    - Real-world String Problems
+* Week 4
+- List
+   -
 
 ## Progress
 
