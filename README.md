@@ -35,24 +35,24 @@ This repository contains my daily Python practice and learning progress.
     - `.format()`
     - Real-world String Problems                               - Day 23
 * Week 4
-- List
+- List                                                         - Day 24
    -List Basics
-    List Creation
-    List Indexing
-    Negative Indexing
-    List Slicing
-    Negative Slicing / Reverse Slicing
-    append()
-    insert()
-    remove()
-    pop()
-    sort()
-    reverse()
-    clear()
-    index()
-    count()
-    List with for loop
-    List Practice Problems
+   - List Creation
+   - List Indexing
+   - Negative Indexing
+   - List Slicing
+   - Negative Slicing / Reverse Slicing
+   - append()
+   -insert()
+  -  remove()
+   - pop()
+  -  sort()
+   - reverse()
+   - clear()
+   - index()
+   - count()
+   - List with for loop
+   - List Practice Problems
 
 ## Progress
 
