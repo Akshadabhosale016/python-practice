@@ -36,7 +36,7 @@ This repository contains my daily Python practice and learning progress.
     - Real-world String Problems                               - Day 23
 * Week 4
 - List                                                         - Day 24
-   -List Basics
+   - List Basics
    - List Creation
    - List Indexing
    - Negative Indexing
