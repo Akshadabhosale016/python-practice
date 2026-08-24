@@ -1,4 +1,4 @@
-# Python Practice 🐍           Date : 4 august to 23 august 2026
+# Python Practice 🐍           
 
 This repository contains my daily Python practice and learning progress.
 
