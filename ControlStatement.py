@@ -1,54 +1,54 @@
-# If statement
+"""# If statement
 
-"""# Print positive number
+# Print positive number
 number = int(input("Enter number :"))
 if number > 0:
-    print("Positive number") """
+    print("Positive number") 
 
-"""#Print Even number
+#Print Even number
 num = int(input("Enter a number:"))
 if num % 2==0:
-    print("Even number")"""
+    print("Even number")
 
-"""# eligibility
+# eligibility
 name = input("Enter your name :")
 age = int(input("Enter your age:"))
 if age >= 18 :
-    print(name,"you are elligible to vote")"""
+    print(name,"you are elligible to vote")
 
-"""# Discount
+# Discount
 amount = int(input("Enter shopping amount :"))
 if amount > 5000:
     discount = amount*10 / 100 
     final_amount = amount - discount
     print("-----Final Bill-----")
     print("Discount :",discount)
-    print("Total :", final_amount)"""
+    print("Total :", final_amount)
 
-"""# Temperature
+# Temperature
 temperature = int(input("Enter temperature :"))
 if temperature > 30 :
-    print("It's a hot day")"""
+    print("It's a hot day")
 
-"""# Marks
+# Marks
 marks = int(input("Enter your marks:"))
 if marks >= 40 :
-    print("Pass")"""
+    print("Pass")
 
-"""num = int(input("Enter a number :"))
+num = int(input("Enter a number :"))
 if num > 10 and num < 50:
-    print("Number is between 10 and 50")"""
+    print("Number is between 10 and 50")
 
 # If else statement
-"""# check enen or odd
+# check enen or odd
 num = int(input("Enter a number:"))
 # condittion
 if num%2 ==0:
     print(num,"is Even number")
 else:
-    print(num,"is Odd number")"""
+    print(num,"is Odd number")
 
-"""# check num is positive,negative or zero
+# check num is positive,negative or zero
 num = int(input("Enter a number :"))
 # condition
 if num > 0:
@@ -56,9 +56,9 @@ if num > 0:
 elif num < 0:
     print(num,"is Negative number")
 else:
-    print(num,"is Zero")"""
+    print(num,"is Zero")
 
-"""# Greater number
+# Greater number
 num1 = int(input("Enter first number :"))
 num2 = int(input("Enter second number :"))
 num3 = int(input("Enter third number :"))
@@ -70,18 +70,18 @@ elif num2 > num1 and num2 > num3:
 elif num3 > num1 and num3 > num2:
     print(num3,"is Greater number")
 else:
-    print("some number are both equal")"""
+    print("some number are both equal")
 
-"""# pass or fail
+# pass or fail
 name = input("Enter student name :")
 marks = int(input("Enter student marks :"))
 # conditions
 if marks >= 40 :
     print(name,"is Pass")
 else :
-    print(name,"is Fail")"""
+    print(name,"is Fail")
 
-"""# print grade according marks
+# print grade according marks
 marks = int(input("Enter a marks :"))
 # condition
 if marks >= 85 :
@@ -91,34 +91,34 @@ elif marks >= 70:
 elif marks >= 50:
     print("C")
 else:
-    print("Fail")"""
+    print("Fail")
 
-"""# check elligibility to driving license
+# check elligibility to driving license
 name = input("Enter your name =")
 age = int(input("Enter your age ="))
 # condition
 if age >= 18 :
     print(name,"is elligible to driving license")
 else:
-    print(name,"is NOT elligible to driving license")"""
+    print(name,"is NOT elligible to driving license")
 
-"""# Divisible by 3 and 5
+# Divisible by 3 and 5
 num = int(input("Enter a number ="))
 #condition
 if num%3==0 and num%5==0:
     print(num,"is divisible by 3 and 5")
 else:
-    print(num,"is NOT divisible by 3 and 5")"""
+    print(num,"is NOT divisible by 3 and 5")
 
-"""# check leap year
+# check leap year
 year = int(input("Enter year :"))
 # condition
 if year%400==0 or (year%4==0 and year%100 != 0):
     print(year,"is leap year")
 else:
-    print(year,"is NOT leap year")"""
+    print(year,"is NOT leap year")
 
-"""# check username and password
+# check username and password
 stored_username = "Akshada"
 stored_password = 1617
 # Input
@@ -128,9 +128,9 @@ password =int(input("Enter password ="))
 if stored_username == username and stored_password == password:
     print("Login successful !")
 else :
-    print("Invalid username and password")"""
+    print("Invalid username and password")
 
-"""# Electricity bill calculate
+# Electricity bill calculate
 units = int(input("Enter units :"))
 # condition
 if units <= 100:
@@ -143,9 +143,9 @@ total_bill = units*rate
 print("------Electricity Bill------")
 print("Units =",units)
 print("Rate =",rate)
-print("Electricity bill =",total_bill)"""
+print("Electricity bill =",total_bill)
 
-"""# simple calculator
+# simple calculator
 # Input
 num1 = float(input("Enter first number ="))
 operator = input("Enter operator (+, -, *, /) :")
@@ -163,17 +163,17 @@ else:
     print("Invalid operator")
     result = None
 if result is not None:
-    print("Result =", result)"""
+    print("Result =", result)
 
-"""# Check vowel and consonant
+# Check vowel and consonant
 ch = (input("Enter a alphabet :")).lower()
 # conditions
 if ch=="a" or ch=="e" or ch=="i" or ch=="o" or ch=="u":
    print(ch,"is vowel")
 else:
-   print(ch,"is consonant ")"""
+   print(ch,"is consonant ")
 
-"""# check character alphabet, digit and special character
+# check character alphabet, digit and special character
 ch = input("Enter a character :").lower()
 # condition
 if ch.isalpha():
@@ -181,9 +181,9 @@ if ch.isalpha():
 elif ch.isdigit():
     print(ch,"is a digit")
 else:
-    print(ch,"is a special character")"""
+    print(ch,"is a special character")
 
-"""# calculate amount
+# calculate amount
 amount = int(input("Enter purchase amount :"))
 # Condition
 if amount >= 5000:
@@ -198,9 +198,9 @@ final_amount = amount - discount
 print("------Final Bill------")
 print("Purchase amount =",amount)
 print("Discount =",discount)
-print("Total Bill =",final_amount)"""
+print("Total Bill =",final_amount)
 
-"""#ATM withdrawal condition
+#ATM withdrawal condition
 # user input
 balance = int(input("Enter account balance ="))
 withdraw = int(input("Enter withdraw amount ="))
@@ -216,9 +216,9 @@ else:
     print("------Final Bill-------")
     print("Initial balance =", balance)
     print("Withdraw amount =",withdraw)
-    print("Reamining balance =",reamining)"""
+    print("Reamining balance =",reamining)
 
-"""# Student result system
+# Student result system
 name = input("Enter student name :")
 biology = int(input("Enter biology marks ="))
 chemistry = int(input("Enter chemistry marks ="))
@@ -238,11 +238,11 @@ else:
     elif percentage >= 50:
       print("Second class")
     else:
-       print("Pass")"""
+       print("Pass")
 
 # Nested if statement
 
-'''# Age category
+# Age category
 age = int(input("Enter your age ="))
 # Condition
 if age < 0:
@@ -254,9 +254,9 @@ elif age <= 19:
 elif age <= 59:
     print("Adult")
 else:
-    print("Senior citizen")'''
+    print("Senior citizen")
 
-'''# Electricity bill - slab calculation
+# Electricity bill - slab calculation
 units = int(input("Enter a units ="))
 # conditions
 if units <= 0:
@@ -274,9 +274,9 @@ if units > 0:
     print("------Final Bill------")
     print("Units =",units)
     print("Rate =",rate)
-    print("Total Bill =",total)'''
+    print("Total Bill =",total)
 
-'''# ATM pin verification
+# ATM pin verification
 # stored pin
 correct_pin = 1234
 # user input
@@ -298,9 +298,9 @@ else:
     print("---- OUTPUT------")
     print("Initial balance =",balance)
     print("Withdraw amount =",withdraw)
-    print("Remaining amount =",remaining)'''
+    print("Remaining amount =",remaining)
 
-'''# Login system
+# Login system
 # stored username and password
 stored_username = "Akshada"
 stored_password = 1624
@@ -315,9 +315,9 @@ if stored_username == username:
     else:
         print("Invalid password")
 else:
-    print("Invalid username")'''
+    print("Invalid username")
 
-'''# Online shopping payment system
+# Online shopping payment system
 amount = int(input("Enter amount ="))
 payment_method = (input("Enter method(Card, UPI, Cash) ="))
 # conditions
@@ -331,9 +331,9 @@ else:
     elif payment_method == "Cash":
         print("Cash payment selected !")
     else:
-        print("Invalid payment method")'''
+        print("Invalid payment method")
 
-'''# Number checker
+# Number checker
 # user input
 num = int(input("Enter a number ="))
 # condition
@@ -346,9 +346,9 @@ if num > 0:
 elif num < 0:
     print(num," is Negative")
 else:
-    print("Zero")'''
+    print("Zero")
 
-'''# electricity bill with discount
+# electricity bill with discount
 unit = int(input("Enter units :"))
 # condition
 if unit <= 0:
@@ -371,9 +371,9 @@ if unit >= 0:
     print("Rate =",rate)
     print("Total =",total)
     print("Discount =",discount)
-    print("with discount final Bill =",final_bill)'''
+    print("with discount final Bill =",final_bill)
 
-'''# Movie ticket booking
+# Movie ticket booking
 age = int(input("Enter age :"))
 price = int(input("Enter ticket price :"))
 no_ticket = int(input("Enter number of ticket :"))
@@ -397,9 +397,9 @@ print("Price :",price)
 print("Number of ticket :",no_ticket)
 print("Amount :",total)
 print("Discount :",discount)
-print("Final amount :",final)'''
+print("Final amount :",final)
 
-'''# ATM withdrawal system with nested if statement
+# ATM withdrawal system with nested if statement
 stored_pin = 1624
 balance = int(input("Enter Account balance ="))
 withdraw = int(input("Enter withdraw amount ="))
@@ -419,9 +419,9 @@ else:
     print("PIN =",pin)
     print("Initial balance =",balance)
     print("Withdraw =",withdraw)
-    print("Remaining balance =",remaining )'''
+    print("Remaining balance =",remaining )
 
-'''# student result + grade system
+# student result + grade system
 name = input("Enter student name =")
 physics = int(input("Enter physics marks ="))
 chemistry = int(input("Enter chemistry marks ="))
@@ -441,9 +441,9 @@ else:
     elif percentage >= 50:
         print("Second class")
     else:
-        print("Pass")'''
+        print("Pass")
 
-'''# Age + Category + Elligibility system
+# Age + Category + Elligibility system
 name = input("Enter your name =")
 age = int(input("Enter your age ="))
 # condition
@@ -461,9 +461,9 @@ else:
     if age >= 18:
         print(name,"you are elligible for driving license")
     else:
-        print(name,"you are NOT elligible for driving license")'''
+        print(name,"you are NOT elligible for driving license")
 
-'''# shopping discount system
+# shopping discount system
 name = input("Enter a name =")
 amount = int(input("Enter shopping amount ="))
 membership = input("Enter membership (YES, NO) =")
@@ -491,9 +491,9 @@ else:
     print("Amount :",amount)
     print("Discount :",discount)
     print("Extra membership discount :",extra)
-    print("Final amount :",final)'''
+    print("Final amount :",final)
 
-'''# ATM transaction system
+# ATM transaction system
 # ATM with PIN + Balance + withdrawal
 stored_pin = 1624
 balance = int(input("Enter Initial balance ="))
@@ -514,9 +514,9 @@ else:
          print("Withdrawal Successeful ! ")
          print("Initial balance =",balance)
          print("withdraw amount =",withdraw)
-         print("Remaining balance =",remaining)'''
+         print("Remaining balance =",remaining)
 
-'''# Electiricity Bill + Discount
+# Electiricity Bill + Discount
 name = input("Enter name :")
 unit = int(input("Enter units :"))
 # conditions
@@ -542,9 +542,9 @@ else:
     print("Rate =",rate) 
     print("Bill =",bill)
     print("Discount =",discount)
-    print("Final bill  after discount = ",final) '''
+    print("Final bill  after discount = ",final) 
 
-'''# Salary + Bonus calculations
+# Salary + Bonus calculations
 name =input("Enter name :")
 salary =int(input("Enter salary :"))
 experience = int(input("Enter working experience(years) :"))  
@@ -567,9 +567,9 @@ print("Initial Salary =",salary)
 print("Experience =",experience)
 print("Bonus according to salary =",bonus)
 print("with bonus =",total)
-print("with extra bonus =",final_salary)'''
+print("with extra bonus =",final_salary)
 
-'''# Bank loan elligibility system
+# Bank loan elligibility system
 name = input("Enter name :")
 age = int(input("Enter age :"))
 salary = int(input("Enter salary :"))
@@ -583,9 +583,9 @@ else:
      if score >= 700:
          print(name,"your loan approved !") 
      else:
-         print(name,"your loan rejected !")'''
+         print(name,"your loan rejected !")
 
-'''# Restaurant bill + Discount
+# Restaurant bill + Discount
 name = input("Enter name =")
 bill = int(input("Enter restaurant bill ="))
 membership = input("Enter membership(Yes / No) =")
@@ -608,9 +608,9 @@ print("-----Result-----")
 print("Your name =",name)
 print("starting bill =",bill)
 print("discount bill =",total_bill)
-print("Extra discount bill =",final_bill)'''
+print("Extra discount bill =",final_bill)
 
-'''# E-Commerce order system
+# E-Commerce order system
 name = input("Enter customer name =")
 amount = int(input("Enter amount ="))
 membership = input("Do you have membership ? (Yes/No) =")
@@ -645,9 +645,9 @@ print("Discount =",discount)
 print("After discount =",discount_amount)
 print("After membership discount =",membership_discount)
 print("Delivery charge =",delivery_charge)
-print("Total =",total_amount)'''
+print("Total =",total_amount)
 
-'''# Employee Bonus Calculator
+# Employee Bonus Calculator
 name = input("Enter name =")
 salary = int(input("Enter current salary ="))
 experience = int(input("Enter experience (0-50) ="))
@@ -667,9 +667,9 @@ print("Salary =",salary)
 print("Experience =",experience)
 print("Performance =",performance)
 print("Bonus =",bonus)
-print("After bonus =",total_salary)'''
+print("After bonus =",total_salary)
 
-'''# scholarship elligibility
+# scholarship elligibility
 name = input("Enter your name :")
 marks = int(input("Enter your marks :"))
 attendance = int(input("Enter attendance :"))
@@ -699,7 +699,7 @@ print("Marks =",marks)
 print("Attendance =",attendance)
 print("Income =",income)
 print("Scholarship =",scholarship,"%")
-print("Status =",status)'''
+print("Status =",status)"""
 
 
 
