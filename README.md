@@ -44,15 +44,28 @@ This repository contains my daily Python practice and learning progress.
    - Negative Slicing / Reverse Slicing
    - append()
    -insert()
-  -  remove()
+   -  remove()
    - pop()
-  -  sort()
+   -  sort()
    - reverse()
    - clear()
    - index()
    - count()
    - List with for loop
    - List Practice Problems
+* Tuple                                                       - Day 25
+   - Tuple indexing
+   - Tuple slicing
+   - len()
+   - count()
+   - index()
+   - for loop
+   - Even/Odd
+   - Tuple vs List
+   - Packing
+   - Unpacking
+   - Nested Tuple
+   - 20 Practice question
 
 ## Progress
 
@@ -63,6 +76,6 @@ This repository contains my daily Python practice and learning progress.
 - [x] Strings
 - [x] String Formatting
 - [X] Lists
-- [ ] Tuples
+- [X] Tuples
 - [ ] Sets
 - [ ] Dictionaries
