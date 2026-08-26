@@ -2,7 +2,7 @@
 
 This repository contains my daily Python practice and learning progress.
 
-## Topics Covered   (2 august -    september 2026)
+## Topics Covered   
 * Week 1
 - Variables                                                    - Day 2
 - Data Types               
