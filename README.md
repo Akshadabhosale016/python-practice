@@ -66,6 +66,40 @@ This repository contains my daily Python practice and learning progress.
    - Unpacking
    - Nested Tuple
    - 20 Practice question
+*Set                                                  - Day 26
+   - add()
+   - remove()
+   - discard()
+   - pop()
+   - clear()
+   - set operations
+     - union()
+     - intersection()
+     - difference ()
+     - symmetric_difference()
+   - membership operator
+     - in and not in
+   - Set comprehension
+     - isSubset()
+     - isSuperset()
+   - Practice questions
+* Dictionary                                       - Day 27
+   - Create
+   - accesee
+   - add
+   - update
+   - delete
+   - keys()
+   - values()
+   - items()
+   - get()
+   - for-loop
+   - if-else
+   - update()
+   - pop()
+   - popitem()
+   - clear()
+   - Practice questions
 
 ## Progress
 
@@ -77,5 +111,5 @@ This repository contains my daily Python practice and learning progress.
 - [x] String Formatting
 - [X] Lists
 - [X] Tuples
-- [ ] Sets
-- [ ] Dictionaries
+- [X] Sets
+- [X] Dictionaries
