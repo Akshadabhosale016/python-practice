@@ -98,7 +98,7 @@ for subject, mark in marks.items():
     else:
         print(subject, "Fail")'''
 
-'''# Dictionary practice set
+'''# Dictionary practice 
 marks = {
     "Maths": 95,
     "Science": 72,
@@ -140,6 +140,81 @@ for subject,marks in marks.items():
 
 # Q10
 print( "geography" in marks)  # false'''
+
+'''# update method
+student = {
+    "name": "Yash",
+    "age": 15
+}
+student.update({ "City" : "Nashik",
+                "age" : 16,
+                "course" :"python",
+                "marks" : 90
+                })
+print(student)
+
+# pop method
+student = {
+    "name": "Yash",
+    "age": 16,
+    "city": "Nashik",
+    "course": "Python"
+}
+student.pop("city")  # Q1
+print(student)
+result = student.pop("course") # Q2
+print(result)
+print(student)
+result = student.pop("marks", "key not found") # Q3
+print(result)
+
+# popitem() method
+student = {
+    "name": "Yash",
+    "age": 16,
+    "city": "Nashik",
+    "course": "Python"
+}
+student.popitem()  # Q1
+print(student)
+result = student.popitem()  # Q2
+print(result)
+print(student)
+student.popitem()    # Q3
+print(student)
+student.popitem()'''
+
+# Dictionary practice
+student = {
+    "name": "Yash",
+    "age": 16,
+    "city": "Nashik",
+    "marks": 85
+}
+for key in student.keys():   # print key  Q1
+    print(key)
+for value in student.values():   # print value Q2
+   print(value)
+for key, value in student.items():  # print key value pair Q3
+    print(key,"=",value)
+student.update({"course" : "python"})  # update Q4
+print(student)
+student.pop("city")     # delete Q5
+print(student)
+student.popitem()         # popitem() Q6
+print(student)
+print("email" in student)   # Q8
+print(student.get("phone"))  # Q9
+student.clear()  # Q10
+print(student)
+if student["marks"] > 40:    # Q7
+    print("Pass")
+else:
+    print("Fail")
+
+
+
+
 
 
 
