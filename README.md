@@ -1,8 +1,8 @@
-# Python Practice 🐍           
+# Python Practice 🐍   
 
 This repository contains my daily Python practice and learning progress.
 
-## Topics Covered   
+## Topics Covered  ( 2 aug - 2 sep)
 * Week 1
 - Variables                                                    - Day 2
 - Data Types               
