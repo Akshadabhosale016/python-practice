@@ -1,4 +1,4 @@
-# Tuple
+'''# Tuple
 # Program 1
 numbers = (10, 20, 30, 40, 50)
 print(numbers[2])    # print 30
@@ -126,10 +126,7 @@ total = 0
 for num in numbers:
    if num % 2 == 0:
       total = total + num
-print("Sum of even numbers =",total)
+print("Sum of even numbers =",total)'''
 
-numbers = {10, 20, 30, 40}
 
-for num in numbers:
-    print(num)
 
