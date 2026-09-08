@@ -100,19 +100,19 @@ This repository contains my daily Python practice and learning progress.
    - popitem()
    - clear()
    - Practice questions
-  * File handling
-    - file mode(r,w,a,x)
-    - open() function
-    - read a text file
-    - read()
-    - readlines()
-    - write()
-    - writelines()
-    - append mode
-    - closed file
-    - with open()
-    - CSV file
-    - read and write CSV
+* File handling
+   - file mode(r,w,a,x)
+   - open() function
+   - read a text file
+   - read()
+   - readlines()
+   - write()
+   - writelines()
+   - append mode
+   - closed file
+   - with open()
+   - CSV file
+   - read and write CSV
 
 ## Progress
 
